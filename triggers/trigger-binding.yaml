@@ -5,8 +5,8 @@ metadata:
 spec:
   params:
     - name: gitrevision
-      value: $(body.head_commit.id)
+      value: master
     - name: gitrepositoryurl
-      value: $(body.repository.url)
+      value: https://github.com/lee-zhg/tutorial-tekton-argocd-code
     - name: contenttype
       value: $(header.content-type)

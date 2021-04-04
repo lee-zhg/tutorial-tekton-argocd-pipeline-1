@@ -26,6 +26,6 @@ spec:
               type: git
               params:
                 - name: revision
-                  value: $(params.gitrevision)
+                  value: master
                 - name: url
-                  value: $(params.gitrepositoryurl)
+                  value: https://github.com/lee-zhg/tutorial-tekton-argocd-code
