@@ -9,4 +9,4 @@ spec:
     - name: gitrepositoryurl
       value: $(body.repository.url)
     - name: contenttype
-      value: $(header.Content-Type)
+      value: $(header.content-type)
